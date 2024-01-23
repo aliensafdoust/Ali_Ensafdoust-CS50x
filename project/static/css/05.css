@@ -1,0 +1,15 @@
+input{
+    margin-bottom:9px
+}
+textarea{
+    margin-bottom:9px;
+}
+button{
+    margin-top: 10px;
+}
+button:hover{
+background-color:green;
+}
+aside{
+    height:900px;
+}

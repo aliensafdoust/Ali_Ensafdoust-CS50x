@@ -1,0 +1,18 @@
+aside{
+    height:900px;
+}
+tr{
+    text-align:center;
+}
+td,th{
+    padding:10px
+}
+tr:first-child{
+    background-color: white;
+    }
+tr:first-child:hover{
+background-color: white;
+}
+tr:hover{
+    background-color:pink ;
+}

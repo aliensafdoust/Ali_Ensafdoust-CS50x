@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CS50x</title>
+    <meta charset="UTF-8"/>
+    <script src="js/cs50.js"></script>
+    <link rel="stylesheet"type="text/css"href="../static/css/00-style.css"/>
+    <link rel="stylesheet" type="text/css"href="../static/css/06.css">
+</head>
+<body>
+
+
+<header>
+    Welcome to my website
+</header>
+
+
+<nav>
+    <a href="/">Main Page</a> |
+    <a href="/01">First page</a> |
+    <a href="/02">Second page</a> |
+    <a href="/03">Third page</a> |
+    <a href="/04">Fourth page</a> |
+    <a href="/05">Fifth page</a> |
+</nav>
+<section>
+    <article>
+        <h2>comments : {{ message }}</h2>
+        <div align="center">
+        <table border="2"cellspacing="0"width="70%">
+            <tr>
+                <th width="20%">Name</th>
+                <th>Opinion</th>
+            </tr>
+            {% for b in coment %}
+            <tr>
+                <td>{{ b.name }}</td>
+                <td>{{ b.text }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+        </div>
+    </article>
+</section>
+
+
+
+<aside>
+    <br>
+    <a href="/"style="padding:5px 80px 5px 80px;">FROONT-END</a><br><br>
+    <a href="/01"style="padding:5px 107px 5px 107px;">HTML</a><br><br>
+    <a href="/02"style="padding:5px 116px 5px 116px;">CSS</a><br><br>
+    <a href="/03"style="padding:5px 84px 5px 84px;">JAVASCRIPT</a><br><br>
+    <a href="/04"style="padding:5px 107px 5px 109px;">CS50x</a><br><br>
+    <a href="/05"style="padding:5px 69px 5px 69px;">Register comments</a>
+</aside>
+
+
+
+
+
+
+<footer>This is CS50x</footer>
+
+
+
+
+</body>
+</html>

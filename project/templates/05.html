@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>comments</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet"type="text/css"href="../static/css/00-style.css"/>
+    <link rel="stylesheet" type="text/css"href="../static/css/05.css">
+    <sript src="js/comment.js"></sript>
+</head>
+<body>
+
+
+<header>
+    Welcome to my website
+</header>
+
+
+<nav>
+    <a href="/">Main Page</a> |
+    <a href="/01">First page</a> |
+    <a href="/02">Second page</a> |
+    <a href="/03">Third page</a> |
+    <a href="/04">Fourth page</a> |
+    <a href="/05">Fifth page</a> |
+</nav>
+
+<section>
+    <article>
+        <h2>Register comments : </h2>
+    <div align="center">
+        <form action="/greet"method="POST">
+            <lable>Name :</lable>
+            <input type="text"name="name"id="name"placeholder="name" required autocomplete="off" autofocus><br>
+            <lable>Email :</lable>
+            <input type="email"name="email"placeholder="Email" required autocomplete="off" autofocus><br>
+            <div>
+               <lable style="float:left;margin-left: 346px;">write comment :</lable>
+               <textarea name="textarea" id="textarea" cols="30" rows="10"style="float:rigth;margin-right:335px"autocomplete="off" autofocus required></textarea><br><br>
+               <p style="clear:both"></p>
+            </div>
+            <button type="submit">send</button>
+        </form>
+    </div>
+    </article>
+</section>
+
+
+
+<aside>
+    <br>
+    <a href="/"style="padding:5px 80px 5px 80px;">FROONT-END</a><br><br>
+    <a href="/01"style="padding:5px 107px 5px 107px;">HTML</a><br><br>
+    <a href="/02"style="padding:5px 116px 5px 116px;">CSS</a><br><br>
+    <a href="/03"style="padding:5px 84px 5px 84px;">JAVASCRIPT</a><br><br>
+    <a href="/04"style="padding:5px 107px 5px 109px;">CS50x</a><br><br>
+    <a href="/05"style="padding:5px 69px 5px 69px;">Register comments</a>
+</aside>
+
+
+
+
+
+
+<footer>This is CS50x</footer>
+
+
+
+
+</body>
+</html>
