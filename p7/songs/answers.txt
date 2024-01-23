@@ -1,0 +1,4 @@
+The average of duration and the danceability and energy because songs with these characteristics are mostly used
+in parties.
+But listening to music is a relative thing and it can be measured considering that it is mostly used in the
+social network. My suggestion is an algorithm that measures it based on Instagram and the popularity of the artist .
