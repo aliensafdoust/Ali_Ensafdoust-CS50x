@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add
+{% endblock %}
+
+{% block main %}
+    <div align="center">
+        <h2>Add</h2>
+    </div>
+    <main class="container py-5 text-center">
+        <form action="/append" method="post">
+            <div class="mb-3">
+                your cash : {{ cash | usd() }}
+                <input type="number" class="form-control mx-auto w-auto" autocomplete="off" autofocus id="shares" name="shares" placeholder="Cash" required>
+            </div>
+            <button class="btn btn-primary" type="submit">Adding</button>
+        </form>
+    </main>
+{% endblock %}
