@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: We usually work based on reversed . which can be seen in high scales, for example in 50000 and 10000, we can see that its execution time is very long
+
+sort2 uses: Merge
+
+How do you know?: The Merge method has the least time in reversed it is determined in high scales Of course, in many places, the Selection method is better
+
+sort3 uses: Selection
+
+How do you know?: Again, based on reversed, when the lowest and highest are determined, the last thing that remains is Selection
